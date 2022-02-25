@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<meta name="viewport" content="initial-scale=1.0, width=device-width">
+</head>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pangolin&display=swap" rel="stylesheet">
+
+<style type="text/css">
+
+
+	html,body {
+	  text-size-adjust: none;
+	  -webkit-text-size-adjust: none;
+	  -moz-text-size-adjust: none;
+	  -ms-text-size-adjust: none;
+	}
+
+	body {
+		
+		font-family: 'Pangolin', sans-serif;
+		align-content: center;
+		
+		}
+
+	
+	h3 {
+		text-align: center;
+		font-size:  1.5em;
+		margin-bottom: 50px;
+
+	}
+
+
+	div { 
+		  margin-bottom: 10px;
+		  border: 1px solid #000;
+		  background-color: #ccc;
+		  width: 330px;
+		  padding: 45px 15px 15px 15px;
+		  line-height: 1.2; 
+		  float: left;
+		  margin: 10px;
+
+		}
+
+
+
+	div span {
+		    border: 1px solid #000;
+			float: right;
+			width: 33%;
+			text-align: center;
+			font-weight: bold;
+			font-size:  1.2em;
+			margin-top:   -46px;
+			margin-right:  -16px;
+			padding: 4px;
+		}
+
+	div#ourmenu {
+		
+  		margin: 0 auto;	
+  		padding 0px;
+  		line-height: 0;
+  		border: 0px;
+		width: 1200px;  		
+		float: none;
+		background-color: #fff;
+	}
+
+	div#chicken {
+  		float: left;
+  		
+	}
+	div#beef {
+  		float: left;
+  		
+	}
+
+	div#sushi {
+  		float: left;
+  		
+	}
+
+	div#chicken span {
+		background-color: #cf8d8d;
+		}		
+
+	div#beef span {
+		background-color: #b93c3b;
+		color: #fff;
+
+		}		
+
+	div#sushi span {
+		background-color: #e1cb8d;
+		}		
+
+
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media only screen and (min-width: 992px) 
+	{
+
+
+			div { 
+
+				
+			}
+
+	}
+
+
+	/* Medium devices (landscape tablets, 768px and up) */
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+			div { 
+				background-color: #00ff00;
+			}
+
+			div#ourmenu {
+				width: 768px;
+
+			}
+
+			div#sushi {
+				width: 712px; 
+			}
+
+
+
+	/* Small devices (mobile tablets, 767px and less) */
+	@media only screen (max-width: 767px) {
+
+			div { 
+				background-color: #00ff00;
+				float: none;
+			}
+
+			div#ourmenu {
+				width: 768px;
+
+			}
+
+			div#sushi {
+				width: 712px; 
+			}
+
+
+
+	}
+
+
+
+</style>
+<body>
+<div id = "ourmenu">
+<h3 id = "title">Our Menu</h3>
+	<div id = "chicken">
+	<span>Chicken</span>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	</div>
+	<div id = "beef">
+	<span>Beef</span>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	</div>
+	<div id = "sushi">
+	<span>Sushi</span>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	</div>
+</div>
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.13'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+</body>
+</html>
