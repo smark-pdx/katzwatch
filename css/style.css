@@ -1,0 +1,178 @@
+
+body {
+	font-family: pangolin;
+	padding: 0;
+	background-color: #ffce00;
+	margin: 0;
+	}
+
+div {
+
+	}	
+
+div.season {
+	text-align:center;
+
+	}
+
+
+
+div.episode  {
+    display: inline-block;
+	padding: 10px 10px 10px 10px;
+	margin: 5px;
+	border: 1px solid #000;
+	text-align: center;
+	background-color: #fff;
+
+	}
+
+
+
+
+
+div.season div div img a {
+	width: 100%;
+	align-content: center;
+}
+
+
+div.season span a:hover {
+	cursor: copy;
+}
+
+div.season span a:hover img {
+	opacity: 1;
+	}
+
+div.season span.thumbnail {
+	width: 330px;
+	height: 300px;
+	background-color: #000;
+	align-content: middle;
+
+}
+
+div.season span a img  {
+	width: 330px;
+	opacity: 0.8;
+}
+
+div#season_title {
+	font-size: 1.5em;
+	padding: 30px;
+	width: 100%;
+}
+
+div#top_banner {
+	font-size: 1.5em;
+	padding: 5px;
+	width: 100%;
+	background-color: #2087ea;
+	margin: 0px;
+}
+
+div#second_banner {
+	font-size: 1.5em;
+	padding: 5px;
+	width: 100%;
+	background-color: #ff0000;
+	margin: 0px;
+}
+
+
+div#season_title {
+	font-size: 1.5em;
+	padding: px;
+	width: 100%;
+}
+
+div#season_title select
+
+ {
+	font-size: .8em;
+	font-family: Pangolin;
+	padding: 15px;
+	border: none;
+
+	background-color: #eee;
+}
+
+
+select option
+ {
+	font-size: 1em;
+	font-family: Pangolin;
+
+}
+
+
+div.episode   {
+    vertical-align:top;
+	width: 350px;
+	height: 420px;
+}
+
+
+div.ep_num {
+	font-size: .9em;
+	text-transform: uppercase;
+	float: left;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+
+
+div.ep_title {
+	font-size: 1.2em;
+	font-weight: bold;
+	float: none;
+	clear: left;
+}
+
+div.season div  p {
+	text-align: left;
+	margin: 10px 0px 10px 10px;
+
+	}
+
+p.ep_date {
+	font-size: .8em;
+}
+
+#player {
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	z-index: 999;
+	position: absolute;
+	top: 0px;
+	display: none;
+}
+
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media only screen and (min-width: 992px) 
+	{
+
+
+
+	}
+
+
+	/* Medium devices (landscape tablets, 768px and up) */
+	@media only screen and (min-width: 768px) and (max-width: 991px) 
+	{
+
+
+
+	}
+
+
+	/* Small devices (mobile tablets, 767px and less) */
+	@media only screen and (max-width: 767px) 
+	{
+
+
+	}
+
+

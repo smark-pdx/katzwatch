@@ -8,196 +8,25 @@
 </head>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pangolin&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/d3.v7.min.js"></script>
 
-<style type="text/css">
+<script>
+d3.csv("data/episodes.csv", function(data) {
+    for (var i = 0; i < data.length; i++) {
+        console.log(data[i].ep_prod_code);
+        console.log(data[i].ep_name);
+    }
+});
+</script>
 
-body {
-	font-family: pangolin;
-	padding: 0;
-	background-color: #ffce00;
-	margin: 0;
-	}
-
-div {
-
-	}	
-
-div.season {
-	text-align:center;
-
-	}
-
-
-
-div.episode  {
-    display: inline-block;
-	padding: 10px 10px 10px 10px;
-	margin: 5px;
-	border: 1px solid #000;
-	text-align: center;
-	background-color: #fff;
-
-	}
-
-
-
-
-
-div.season div div img a {
-	width: 100%;
-	align-content: center;
-}
-
-
-div.season span a:hover {
-	cursor: copy;
-}
-
-div.season span a:hover img {
-	opacity: 1;
-	}
-
-div.season span.thumbnail {
-	width: 330px;
-	height: 300px;
-	background-color: #000;
-	align-content: middle;
-
-}
-
-div.season span a img  {
-	width: 330px;
-	opacity: 0.8;
-}
-
-div#season_title {
-	font-size: 1.5em;
-	padding: 30px;
-	width: 100%;
-}
-
-div#top_banner {
-	font-size: 1.5em;
-	padding: 5px;
-	width: 100%;
-	background-color: #2087ea;
-	margin: 0px;
-}
-
-div#second_banner {
-	font-size: 1.5em;
-	padding: 5px;
-	width: 100%;
-	background-color: #ff0000;
-	margin: 0px;
-}
-
-
-div#season_title {
-	font-size: 1.5em;
-	padding: px;
-	width: 100%;
-}
-
-div#season_title select
-
- {
-	font-size: .8em;
-	font-family: Pangolin;
-	padding: 15px;
-	border: none;
-
-	background-color: #eee;
-}
-
-
-select option
- {
-	font-size: 1em;
-	font-family: Pangolin;
-
-}
-
-
-div.episode   {
-    vertical-align:top;
-	width: 350px;
-	height: 420px;
-}
-
-
-div.ep_num {
-	font-size: .9em;
-	text-transform: uppercase;
-	float: left;
-	margin: 0px 0px 0px 10px;
-	padding: 0px;
-}
-
-
-div.ep_title {
-	font-size: 1.2em;
-	font-weight: bold;
-	float: none;
-	clear: left;
-}
-
-div.season div  p {
-	text-align: left;
-	margin: 10px 0px 10px 10px;
-
-	}
-
-p.ep_date {
-	font-size: .8em;
-}
-
-#player {
-	height: 100%;
-	width: 100%;
-	background-color: #000;
-	z-index: 999;
-	position: absolute;
-	top: 0px;
-	display: none;
-}
-
-	/* Large devices (laptops/desktops, 992px and up) */
-	@media only screen and (min-width: 992px) 
-	{
-
-
-
-	}
-
-
-	/* Medium devices (landscape tablets, 768px and up) */
-	@media only screen and (min-width: 768px) and (max-width: 991px) 
-	{
-
-
-
-	}
-
-
-	/* Small devices (mobile tablets, 767px and less) */
-	@media only screen and (max-width: 767px) 
-	{
-
-
-	}
-
-
-
-
-</style>
 
 <body>
+
+
 <div ng-app="">
 <div id = "top_banner"></div>
 <div id = "second_banner"></div>
-
-<div class = "season" id= "season1">
 <div id = "season_title">
 Dr. Katz, Professional Therapist
 <select name ="season" id = "season_select">
@@ -210,20 +39,18 @@ Dr. Katz, Professional Therapist
 </select>
 </div>
 
+<!--
 
-
-
-	<div id = "Ep0101" class="episode">
+<div class = "season" id= "season1">
+	<div id = "Ep101" class="episode">
 	<span class="thumbnail"><a href="#xjHHiAitf_Q"><img src="https://img.youtube.com/vi/xjHHiAitf_Q/0.jpg"></a></span>
-	<!--https://www.youtube.com/xjHHiAitf_Q--></span>
 	<div class="ep_num">Episode 101</div>
 	<div class="ep_title">"Pot-Bellied Pigs"</div>
 	<p>In the first episode, Ben attempts a pot-belly pig breeding scheme and Dr. Katz receives financial advice from Stanley.</p>
 	<p>Dr. Katz sees Bill Braudis and Dom Irrera.</p>
 	<p class = "ep_date">Original air date: May 28, 1995 | Posted by Cartoon Digest</p>
 	</div>
-
-	<div id = "Ep0102" class="episode">
+	<div id = "Ep102" class="episode">
 	<span class="thumbnail"><a href="#jMa4mfMjTw8"><img src="https://img.youtube.com/vi/jMa4mfMjTw8/0.jpg"></a></span>
 	<div class="ep_num">Episode 102</div>
 	<div class="ep_title">"Pretzelkins"</div>
@@ -231,31 +58,177 @@ Dr. Katz, Professional Therapist
 	<p>Dr. Katz sees Ray Romano and Wendy Liebman.</p>
 	<p class = "ep_date">Original air date:  June 4, 1995</p>
 	</div>
-
-	<div id = "Ep0103" class="episode">
+	<div id = "Ep103" class="episode">
 	<span class="thumbnail"><a href="#LeZZNFhuvKc"><img src="https://img.youtube.com/vi/LeZZNFhuvKc/0.jpg"></a></span>
-	<span class="ep_title">"Bully"</span>
+	<div class="ep_num">Episode 103</div>
+	<div class="ep_title">"Bully"</div>
 	<p>Ben deals with his childhood stuffed bull, named Bully, being accidentally thrown out, and Dr. Katz attempts to perform at an open-mic night.</p>
 	<p>Dr. Katz sees Ray Romano and Joy Behar.</p>
-	Episode 103 - June 11, 1995	
+	<p class = "ep_date">Original air date:  June 11, 1995</p>
 	</div>
-
-	<div id = "Ep0103" class="episode">
-	<span class="ep_title">Episode 103</span>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+	<div id = "Ep104" class="episode">
+	<span class="thumbnail"><a href="#o0lEKX3hGik"><img src="https://img.youtube.com/vi/o0lEKX3hGik/0.jpg"></a></span>		
+	<div class="ep_num">Episode 104</div>
+	<div class="ep_title">"Cholesterol"</div>
+	<p>Dr. Katz starts to train with Julie the bartender after having health concerns. </p>
+	<p>Dr. Katz sees Dave Attell and Laura Kightlinger.</p>
+	<p class = "ep_date">Original air date:  June 18, 1995</p>
 	</div>
-	<div id = "Ep0104" class="episode">
-	<span class="ep_title">Episode 104</span>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+	<div id = "Ep105" class="episode"> 
+	<span class="thumbnail"><a href="#kBqPz2zjtec"><img src="https://img.youtube.com/vi/kBqPz2zjtec/0.jpg"></a></span>		
+	<div class="ep_num">Episode 105</div>
+	<div class="ep_title">"Everybody's Got a Tushy"</div>
+	<p>Dr. Katz is worried about Ben's lack of social life.</p>
+	<p>Dr. Katz sees Ray Romano and Larry Miller.</p>
+	<p class = "ep_date">Original air date:  June 25, 1995</p>
 	</div>
-	<div id = "Ep0105" class="episode">
-	<span class="ep_title">Episode 105</span>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+	<div id = "Ep106" class="episode"> 
+	<span class="thumbnail"><a href="#CCHMuuP8BpI"><img src="https://img.youtube.com/vi/CCHMuuP8BpI/0.jpg"></a></span>		
+	<div class="ep_num">Episode 106</div>
+	<div class="ep_title">"Family Car"</div>
+	<p>Ben borrows the family car.</p>
+	<p>Dr. Katz sees Anthony Clark and Andy Kindler.</p>
+	<p class = "ep_date">Original air date:  July 2, 1995</p>
 	</div>
 </div>
+
+<div class = "season" id= "season2">
+
+	<div id = "Ep201" class="episode"> 
+	<span class="thumbnail"><a href="#3FDI5oxw_Mk"><img src="https://img.youtube.com/vi/3FDI5oxw_Mk/0.jpg"></a></span>		
+	<div class="ep_num">Episode 201</div>
+	<div class="ep_title">"Bystander Ben"</div>
+	<p>Ben witnesses a crime and appears in the newspaper.</p>
+	<p>Dr. Katz sees Kevin Meaney and Steven Wright.</p>
+	<p class = "ep_date">Original air date:  October 15, 1995</p>
+	</div>
+
+	<div id = "Ep202" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 202</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+	<div id = "Ep203" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 203</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+	<div id = "Ep204" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 204</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+	<div id = "Ep205" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 205</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+	<div id = "Ep206" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 206</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+	<div id = "Ep207" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 207</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+	<div id = "Ep208" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 208</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+	<div id = "Ep209" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 209</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+	<div id = "Ep210" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 210</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+	<div id = "Ep211" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 211</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+	<div id = "Ep212" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 212</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+	<div id = "Ep213" class="episode"> 
+	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
+	<div class="ep_num">Episode 20X</div>
+	<div class="ep_title">XXXXXXXX</div>
+	<p>XXXXXXXX</p>
+	<p>XXXXXXXX</p>
+	<p class = "ep_date">Original air date:  XXXXXXXX</p>
+	</div>
+
+</div>
+
+<div class = "season" id= "season3">
+
+
+</div>
+
+
+<div class = "season" id= "season4">
+
+
+</div>
+-->
+
+</div>
+
 <div id = "player">
 	FOO
-<div>
 </div>
 </body>
 

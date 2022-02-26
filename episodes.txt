@@ -1,0 +1,446 @@
+
+
+<div id="seasonOne">
+
+	<section class = "Episode">
+		<div><iframe width="560" height="315" src="https://www.youtube.com/embed/CWaNSfkWb6s" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; 	picture-in-picture" allowfullscreen></iframe></div>
+		<div>Episode: 1</div>
+		<div>"Pot-Bellied Pigs"</div>
+		<div>May 28, 1995</div>
+		<div>101</div>
+		<div>In the first episode, Ben attempts a pot-belly pig breeding scheme and Dr. Katz receives financial advice from Stanley.</div>
+		<div>Dr. Katz sees Bill Braudis and Dom Irrera.</div>
+	</section> 
+
+	<section>
+		<div><iframe width="560" height="315" src="https://www.youtube.com/embed/PjFVzBg4rpA" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>	
+		<div>Episode: 2</div>
+		<div>"Pretzelkins"</div>
+		<div>June 4, 1995</div>
+		<div>102</div>
+		<div>Dr. Katz asks Ben to take his grandfather to the urologist while attempting to deal with his own depressed feelings.</div>
+		<div>Dr. Katz sees Ray Romano and Wendy Liebman.</div>
+	</section> 
+
+	<section>
+		<div><iframe width="560" height="315" src="https://www.youtube.com/watch?v=zphtXq_gCqI" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		<div>Episode: 3</div>
+		<div>"Bully"</div>
+		<div>June 11, 1995</div>
+		<div>103</div>
+		<div>Ben deals with his childhood stuffed bull, named Bully, being accidentally thrown out, and Dr. Katz attempts to perform at an open-mic night.</div>
+		<div>Dr. Katz sees Ray Romano and Joy Behar.</div>
+		</div>	
+	</section>
+
+
+	<section>
+		<div>https://www.youtube.com/watch?v=o0lEKX3hGik
+		<div>Episode 4</div>
+	"Cholesterol"	June 18, 1995	104
+Dr. Katz starts to train with Julie the bartender after having health concerns.
+Dr. Katz sees Dave Attell and Laura Kightlinger.
+5	"Everybody's Got a Tushy"	June 25, 1995	105
+Dr. Katz is worried about Ben's lack of social life.
+Dr. Katz sees Ray Romano and Larry Miller.
+6	"Family Car"	July 2, 1995	106
+Ben borrows the family car.
+	<section>
+
+
+
+</div>
+<div id = "seasonTwo">
+
+Dr. Katz sees Anthony Clark and Andy Kindler.
+Season 2 (1995–96)
+No.	Title	Original air date	Prod.
+code
+7	"Bystander Ben"	October 15, 1995	201
+Ben witnesses a crime and appears in the newspaper.
+Dr. Katz sees Kevin Meaney and Steven Wright.
+8	"Real Estate"	October 22, 1995	202
+Ben searches for an apartment.
+Dr. Katz sees Barry Sobel and Rita Rudner.
+9	"Glasses"	October 29, 1995	203
+Dr. Katz buys a pair of glasses.
+Dr. Katz sees Dom Irrera and Emo Philips.
+10	"Office Management"	November 6, 1995	204
+Dr. Katz wonders why Laura is calling out from work and thinks she needs a morale boost.
+Dr. Katz sees Ray Romano and Carol Leifer.
+11	"Bees and SIDS"	November 13, 1995	205
+Dr. Katz is afraid of a bee in the office. Ben reads his dad's medical books and convinces himself he is ill.
+Dr. Katz sees Dom Irrera and Louis C.K..
+12	"Drinky the Drunk Guy"	November 20, 1995	206
+Ben thinks his dad has a drinking problem.
+Dr. Katz sees Ray Romano and Janeane Garofalo.
+13	"Sticky Notes"	November 27, 1995	207
+Dr. Katz thinks Laura is stealing sticky notes.
+Dr. Katz sees Garry Shandling and Judy Tenuta.
+14	"It Takes Some Getting Used To"	March 31, 1996	208
+Dr. Katz sees a new woman and Ben is uncomfortable with it.
+Dr. Katz sees Bill Braudis and Lew Schneider.
+15	"The Particle Board"	April 7, 1996	209
+Dr. Katz and Ben build a shelf for the apartment.
+Dr. Katz sees Eddie Brill and Marc Maron.
+16	"A Journey for the Betterment of People"	April 14, 1996	210
+Ben meets a prostitute.
+Dr. Katz sees Sandra Bernhard and Todd Barry.
+17	"Theory of Intelligence"	April 21, 1996	211
+Dr. Katz gives an adult education lecture.
+Dr. Katz sees Joy Behar and Brian Kiley.
+18	"Henna"	April 28, 1996	212
+Dr. Katz and Ben use a hair product called "Ultra Henna Bouquet", which turns their hair bright orange-red.
+Dr. Katz sees Kevin Meaney and Fred Stoller.
+19	"ESP"	May 5, 1996	213
+Ben is convinced he has ESP.
+Dr. Katz sees Ray Romano and Tom Agna.
+
+
+</div>
+<div id = "seasonThree">
+	Season 3 (1996–97)
+No.	Title	Original air date	Prod.
+code
+20	"Monte Carlo"	October 6, 1996	301
+Ben starts a celebrity limousine service and runs it from his dad's office.
+Dr. Katz sees Richard Jeni and Winona Ryder
+21	"Blind Date"	October 13, 1996	302
+Julie sets Dr. Katz up on a blind date.
+Dr. Katz sees Jeffrey Ross and Cathy Ladman
+22	"Fructose"	October 20, 1996	303
+Dr. Katz brings a bowl of fruit to the office. Ben tries to find a new hobby.
+Dr. Katz sees Marc Maron, Emo Philips and Bob Odenkirk
+23	"Earring"	November 3, 1996	304
+Ben wants to change his image and thinks about getting an earring.
+Dr. Katz sees Jack Gallagher and Kevin Nealon
+24	"Koppleman and Katz"	November 10, 1996	305
+Ben discovers that his dad was a hippie and had an old flame named Sharon Koppleman.
+Dr. Katz sees Kathy Griffin, David Feldman and Jeff Stilson
+25	"Guess Who"	November 17, 1996	306
+Dr. Katz gets an urge to play the "Guess Who?" board game with Ben.
+Dr. Katz sees Jon Stewart and Ritch Shydner
+26	"Day Planner"	November 24, 1996	307
+Dr. Katz loses his day planner and asks Ben to help him find it.
+Dr. Katz sees Rodney Dangerfield, Fred Stoller and Jake Johannsen
+27	"Studio Guy"	December 1, 1996	309
+Dr. Katz wants to record a song that has been stuck in his head.
+Dr. Katz sees Joan Rivers, Bobcat Goldthwait, and Fred Stoller.
+28	"Mourning Person"	January 28, 1997	308
+Dr. Katz has to give a eulogy at his aunt's funeral.
+Dr. Katz sees Andy Kindler and Margaret Smith
+
+
+29	"L'il Helper"	February 4, 1997	310
+Dr. Katz throws out his back and asks Ben to help him.
+Dr. Katz sees Ken Rogerson, David Juskow and Lizz Winstead
+https://www.youtube.com/watch?v=i8mWUUX6Gp0
+
+
+30	"Big Fat Slug"	February 11, 1997	311
+Dr. Katz wants Ben to cut down on his TV time.
+Dr. Katz sees Caroline Rhea and David Cross
+https://www.youtube.com/watch?v=t2B0SINKmgg
+
+
+31	"New Phone System"	February 18, 1997	312
+Dr. Katz installs a new phone system in the office.
+Dr. Katz sees David Mamet and Andy Kindler
+https://www.youtube.com/watch?v=gvBEKfw0AXY
+
+32	"Reunion"	February 25, 1997	313
+Ben is invited to his high school reunion.
+Dr. Katz sees Dom Irrera and Lisa Kudrow
+https://www.youtube.com/watch?v=9YUb_zVJN1w
+
+
+</div>
+<div id = "seasonFour">
+
+33	"Ben Treats"	September 27, 1997	405
+Ben wins $500 on a scratch-off lottery ticket and treats Dr. Katz and Laura to dinner.
+Dr. Katz sees Julia Louis-Dreyfus and Jim Gaffigan.
+https://www.youtube.com/watch?v=VzQPla0Pu6I
+
+34	"Memoirs"	October 3, 1997	401
+Ben wants to be an author and begins to write his memoirs.
+Dr. Katz sees Louis C.K., Ron Lynch, and Fred Stoller.
+https://www.youtube.com/watch?v=IFmr1jCF2DI
+
+35	"Electric Bike"	October 10, 1997	402
+Dr. Katz orders an electric bike.
+Dr. Katz sees Ray Romano and Dave Chappelle.
+https://www.youtube.com/watch?v=uMK9VGi4RA4
+
+36	"Broadcaster Ben"	October 17, 1997	403
+Ben auditions to become a broadcaster.
+Dr. Katz sees Bill Braudis and Dom Irrera.
+https://www.youtube.com/watch?v=pGitJahFk10
+Bill Braudis and Dom Irrera.
+
+
+37	"Trash Day"	October 24, 1997	404
+Dr. Katz takes a chair that was being thrown out.
+Dr. Katz sees Dave Attell, Fred Stoller, and Lew Schneider.
+https://www.youtube.com/watch?v=THx00Pf8bOs
+
+38 0406 - "Sharon Meyers" | Al Franken, Bobby Slayton and Todd Barry
+https://www.youtube.com/watch?v=Gvohx4wD84o
+
+39 0407 - "Mask" |  Steven Wright and Mark Schiff
+https://www.youtube.com/watch?v=pSeX_qiQxqo
+
+
+40 0408 - "Closets" | Elayne Boosler and Michael Rowe.
+https://www.youtube.com/watch?v=nMDhVmPLD6g
+
+41 0409 -  "Wild Weekend" | Don Gavin and Robert Schimmel.
+https://www.youtube.com/watch?v=CyLXh7Gpz3g
+https://www.youtube.com/watch?v=QyaMalWygKo
+
+42 0410 "Chopper" | Dom Irrera and Conan O'Brien.
+https://www.youtube.com/watch?v=XwtpiQvaydg
+https://www.youtube.com/watch?v=ykRKIt0lOmg
+
+
+43 0411 - "Alibi" | Jeff Garlin and Tony V
+https://www.youtube.com/watch?v=TVzMLuaLygM
+
+
+44 - 0412  "Ben-Centennial" | Sam Brown and The Smothers Brothers
+
+45 - 0413 "Undercover" | Mark Pitta, Richard Lewis and Ron Lynch
+
+
+
+Trash Day
+https://www.youtube.com/watch?v=WSVuYrf38Do
+
+
+
+
+
+
+
+
+63619345
+
+
+
+
+
+
+
+42 0410 "Chopper"
+
+43 0411 - "Alibi"
+
+44 - 0412  "Ben-Centennial"
+
+45 - 0413 "Undercover"
+
+
+45    "Undercover"
+Mark Pitta, Richard Lewis and Ron Lynch.
+https://www.youtube.com/watch?v=HKZ2g8ArU9k
+
+</div>
+<div id = "seasonFive">
+
+46 "Old Man"
+Robert Klein, Gilbert Gottfried and Jim Gaffigan
+https://www.youtube.com/watch?v=0SKsgm0uM7k
+
+
+47 "Fanny Pack"
+Dr. Katz sees Denis Leary and James Leemer
+https://www.youtube.com/watch?v=vQNTcGcY0sk
+
+48	"Metaphors"
+Dr. Katz sees Brian Regan and David Duchovny
+https://www.youtube.com/watch?v=zbrqBB6LBEc
+
+
+49	"Movies"	July 6, 1998	502
+Dr. Katz and Ben are addicted to movies.
+Dr. Katz sees Sam Brown and Patton Oswalt.
+https://www.youtube.com/watch?v=JeLspXiSJ3Q
+
+50	"Ticket"	July 13, 1998	512
+Dr. Katz is given a ticket for failing to stop at a stop sign. Laura dates a dentist.
+Dr. Katz sees Ben Stiller and Jann Karam
+https://www.youtube.com/watch?v=1WF1z-kMBso
+
+51	"Phone Luv"	July 20, 1998	504
+Ben becomes interested in a telemarketing woman named Cindy.
+Dr. Katz sees Mitch Fatel and John Pinette
+https://www.youtube.com/watch?v=i1PPQR59QlE
+
+52	"Chain Letter"	July 27, 1998	506
+Ben receives a chain letter. Dr. Katz sets up a retirement fund for Laura.
+Dr. Katz sees Gilbert Gottfried and Wendy Liebman
+https://www.youtube.com/watch?v=8WuqfGCN3TU
+
+
+53	"Babysitting Ben"	August 3, 1998	507
+Ben babysits the neighbor's four-year-old son. Laura tells Dr. Katz that the office received a death threat.
+Dr. Katz sees Brian Regan and Paul Kozlowski
+https://www.youtube.com/watch?v=CMXFCb4Fayk
+
+
+54	"Miles Away"	August 10, 1998	508
+Ben visits his cousin Sarah.
+Dr. Katz sees Mitch Fatel and Patton Oswalt
+https://www.youtube.com/watch?v=NjYKYSLtstw
+
+
+55	"London Broil"	August 17, 1998	509
+Dr. Katz and Ben play games where they have to decipher clues.
+Dr. Katz sees Kevin Kataoka and Brian Kiley
+https://www.youtube.com/watch?v=pnPOsMQFG48
+
+
+
+
+56	"Feng Shui"	August 24, 1998	510
+Ben is interested in Feng Shui.
+Dr. Katz sees Tom Kenny and Harry Shearer
+https://www.youtube.com/watch?v=jchZ8h29lQI
+
+
+
+57	"Alderman"	September 21, 1998	511
+Dr. Katz finds out the alderman he voted for is corrupt.
+Dr. Katz sees Louis C.K. and Sarah Silverman
+https://www.youtube.com/watch?v=ktdIo00EzEk
+
+
+
+58	"Paranoia"	September 28, 1998	513
+Dr. Katz and Ben think someone is trying to break into their apartment.
+Dr. Katz sees Lew Schneider and David Cross
+https://www.youtube.com/watch?v=GDd2OpmEXEM
+
+
+59	"Waltz"	October 5, 1998	514
+Dr. Katz learns how to waltz.
+Dr. Katz sees Ron Lynch and Susie Essman
+https://www.youtube.com/watch?v=W4CjKxXKyu8
+
+
+60	"Anniversary"	October 12, 1998	515
+Dr. Katz's anniversary approaches.
+Dr. Katz sees Dom Irrera and Bonnie McFarlane
+https://www.youtube.com/watch?v=T06hU0XkL9Q
+
+
+61	"Community Theater"	October 19, 1998	516
+Dr. Katz auditions for a play at the community theater.
+Dr. Katz sees Tom Kenny and Ron Lynch
+https://www.youtube.com/watch?v=Y6DlF3AxSjQ
+
+
+62	"Ping-Pong"	October 26, 1998	517
+Dr. Katz is challenged to a game of ping-pong by an old adversary.
+Dr. Katz sees Kathy Griffin and Laura Kightlinger
+https://www.youtube.com/watch?v=FV0wrNJOMmA
+
+
+
+63	"Thanksgiving"	November 23, 1998	518
+Dr. Katz's ex-wife Roz (Carrie Fisher) visits for Thanksgiving dinner.
+Dr. Katz sees Dom Irrera.
+https://www.youtube.com/watch?v=YhSck-t0Yh0
+
+</div>
+<div id = "seasonSix">
+
+64	"Sissy Boy"	June 15, 1999	601
+Ben is called a sissy by a former bully.
+Dr. Katz sees Ted Alexandro and Jeff Goldblum
+https://www.youtube.com/watch?v=OthQfkYfThw
+
+65	"Pullman Square"	June 22, 1999	602
+Ben stages a protest to save Pullman Square.
+Dr. Katz sees Ed Crasnick and Teri Garr
+https://www.youtube.com/watch?v=rynooaqYvnE
+
+66	"Wisdom Teeth"	June 29, 1999	603
+Ben gets his wisdom teeth removed.
+Dr. Katz sees Paul F. Tompkins and Margaret Cho
+https://www.youtube.com/watch?v=Narop2aZnZs
+
+
+67	"Past Lives"	July 6, 1999	604
+Dr. Katz and Ben believe they were famous people in previous lives.
+Dr. Katz sees Dom Irrera and Mitch Hedberg
+https://www.youtube.com/watch?v=jQ5ONprw9ko
+
+68	"Ben's Partay"	July 13, 1999	605
+Ben throws a party at the apartment.
+Dr. Katz sees Al Lubel and Tom Hertz
+https://www.youtube.com/watch?v=eOSMhyWTdLA
+
+69	"Walk for Hunger"	July 20, 1999	615
+Laura asks Dr. Katz to sponsor her for a walk.
+Dr. Katz sees Wanda Sykes and Jon Stewart
+https://www.youtube.com/watch?v=Guwk59qOgls
+
+70	"Used Car"	December 24, 1999	606
+Dr. Katz and Ben help Laura when she goes to buy a used car.
+Dr. Katz sees Greg Behrendt and Ian Bagg
+
+71	"Ball and Chain"	December 24, 1999	607
+Dr. Katz begins dating an author and Ben gets nervous about it.
+Dr. Katz sees Carol Leifer and Kevin Meaney
+
+72	"Snow Day"	December 24, 1999	608
+The city prepares for a blizzard.
+Dr. Katz sees Merrill Markoe and Dana Gould
+
+73	"Garden"	December 24, 1999	609
+Dr. Katz is interested in gardening.
+Dr. Katz sees Mitch Hedberg and Matt Siegel
+https://www.youtube.com/watch?v=35xkFvimN18
+
+
+74	"Big TV"	December 24, 1999	610
+Ben panics when the TV breaks and buys a big-screen TV without Dr. Katz's permission.
+Dr. Katz sees Dom Irrera and Al Lubel
+
+
+75	"Vow of Silence"	December 24, 1999	611
+Dr. Katz makes a bet with Ben to see who can go longer without reading the newspaper (Katz) or talking (Ben).
+Dr. Katz sees Paul F. Tompkins and Sam Brown
+
+76	"You're Belinda"	December 24, 1999	612
+Dr. Katz wants to attend a "brief therapy" seminar in Yorba Linda, California.
+Dr. Katz sees Wanda Sykes and Rich Gustus
+
+77	"Radio Katz"	December 24, 1999	614
+Dr. Katz is a guest host on a radio talk show.
+Dr. Katz sees Dom Irrera and Julie Barr
+
+78	"Expert Witness"	December 24, 1999	613
+Dr. Katz is asked to analyze a teenager and testify in court.
+Dr. Katz sees Jake Johannsen and Bob Balaban
+
+79	"Bakery Ben"	February 13, 2002	616
+Ben becomes an assistant at a local bakery.
+Dr. Katz sees Catherine O'Hara and Dave Attell
+
+80	"Uncle Nothing"	February 13, 2002	617
+Laura gets engaged to a musician. Ben visits Dr. Katz's bar and meets Julie.
+Dr. Katz sees Louis C.K. and Kevin Brennan
+
+81	"Lerapy"	February 13, 2002	618
+Dr. Katz tells Conan O'Brien a joke that Conan uses on his talk show without credit.
+Dr. Katz sees Whoopi Goldberg and Conan O'Brien.
+
+</div>
+
+
+
+
+</body>
+</html>
