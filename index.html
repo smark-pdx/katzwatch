@@ -1,232 +1,179 @@
 <!DOCTYPE html>
 <html>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
 <head>
 	<title>Our Menu</title>
-<meta name="viewport" content="initial-scale=1.0, width=device-width">
-</head>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pangolin&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/d3.min.js"></script>
+    <script src="js/d3.min.js" charset="utf-8"></script>
 
-<script>
-d3.csv("data/episodes.csv", function(data) {
-    for (var i = 0; i < data.length; i++) {
-        console.log(data[i].ep_prod_code);
-        console.log(data[i].ep_name);
-        alert ('data[i].ep_name');
-    }
-});
-</script>
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pangolin&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+
 
 
 <body>
 
-
-<div ng-app="">
 <div id = "top_banner"></div>
 <div id = "second_banner"></div>
+
 <div id = "season_title">
-Dr. Katz, Professional Therapist
-<select name ="season" id = "season_select">
-	<option>Season 1</option>
-	<option>Season 2</option>
-	<option>Season 3</option>
-	<option>Season 4</option>
-	<option>Season 5</option>
-	<option>Season 6</option>
-</select>
-</div>
-
-<!--
-
-<div class = "season" id= "season1">
-	<div id = "Ep101" class="episode">
-	<span class="thumbnail"><a href="#xjHHiAitf_Q"><img src="https://img.youtube.com/vi/xjHHiAitf_Q/0.jpg"></a></span>
-	<div class="ep_num">Episode 101</div>
-	<div class="ep_title">"Pot-Bellied Pigs"</div>
-	<p>In the first episode, Ben attempts a pot-belly pig breeding scheme and Dr. Katz receives financial advice from Stanley.</p>
-	<p>Dr. Katz sees Bill Braudis and Dom Irrera.</p>
-	<p class = "ep_date">Original air date: May 28, 1995 | Posted by Cartoon Digest</p>
-	</div>
-	<div id = "Ep102" class="episode">
-	<span class="thumbnail"><a href="#jMa4mfMjTw8"><img src="https://img.youtube.com/vi/jMa4mfMjTw8/0.jpg"></a></span>
-	<div class="ep_num">Episode 102</div>
-	<div class="ep_title">"Pretzelkins"</div>
-	<p>Dr. Katz asks Ben to take his grandfather to the urologist while attempting to deal with his own depressed feelings.</p>
-	<p>Dr. Katz sees Ray Romano and Wendy Liebman.</p>
-	<p class = "ep_date">Original air date:  June 4, 1995</p>
-	</div>
-	<div id = "Ep103" class="episode">
-	<span class="thumbnail"><a href="#LeZZNFhuvKc"><img src="https://img.youtube.com/vi/LeZZNFhuvKc/0.jpg"></a></span>
-	<div class="ep_num">Episode 103</div>
-	<div class="ep_title">"Bully"</div>
-	<p>Ben deals with his childhood stuffed bull, named Bully, being accidentally thrown out, and Dr. Katz attempts to perform at an open-mic night.</p>
-	<p>Dr. Katz sees Ray Romano and Joy Behar.</p>
-	<p class = "ep_date">Original air date:  June 11, 1995</p>
-	</div>
-	<div id = "Ep104" class="episode">
-	<span class="thumbnail"><a href="#o0lEKX3hGik"><img src="https://img.youtube.com/vi/o0lEKX3hGik/0.jpg"></a></span>		
-	<div class="ep_num">Episode 104</div>
-	<div class="ep_title">"Cholesterol"</div>
-	<p>Dr. Katz starts to train with Julie the bartender after having health concerns. </p>
-	<p>Dr. Katz sees Dave Attell and Laura Kightlinger.</p>
-	<p class = "ep_date">Original air date:  June 18, 1995</p>
-	</div>
-	<div id = "Ep105" class="episode"> 
-	<span class="thumbnail"><a href="#kBqPz2zjtec"><img src="https://img.youtube.com/vi/kBqPz2zjtec/0.jpg"></a></span>		
-	<div class="ep_num">Episode 105</div>
-	<div class="ep_title">"Everybody's Got a Tushy"</div>
-	<p>Dr. Katz is worried about Ben's lack of social life.</p>
-	<p>Dr. Katz sees Ray Romano and Larry Miller.</p>
-	<p class = "ep_date">Original air date:  June 25, 1995</p>
-	</div>
-	<div id = "Ep106" class="episode"> 
-	<span class="thumbnail"><a href="#CCHMuuP8BpI"><img src="https://img.youtube.com/vi/CCHMuuP8BpI/0.jpg"></a></span>		
-	<div class="ep_num">Episode 106</div>
-	<div class="ep_title">"Family Car"</div>
-	<p>Ben borrows the family car.</p>
-	<p>Dr. Katz sees Anthony Clark and Andy Kindler.</p>
-	<p class = "ep_date">Original air date:  July 2, 1995</p>
-	</div>
-</div>
-
-<div class = "season" id= "season2">
-
-	<div id = "Ep201" class="episode"> 
-	<span class="thumbnail"><a href="#3FDI5oxw_Mk"><img src="https://img.youtube.com/vi/3FDI5oxw_Mk/0.jpg"></a></span>		
-	<div class="ep_num">Episode 201</div>
-	<div class="ep_title">"Bystander Ben"</div>
-	<p>Ben witnesses a crime and appears in the newspaper.</p>
-	<p>Dr. Katz sees Kevin Meaney and Steven Wright.</p>
-	<p class = "ep_date">Original air date:  October 15, 1995</p>
-	</div>
-
-	<div id = "Ep202" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 202</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-	<div id = "Ep203" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 203</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-	<div id = "Ep204" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 204</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-	<div id = "Ep205" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 205</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-	<div id = "Ep206" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 206</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-	<div id = "Ep207" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 207</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-	<div id = "Ep208" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 208</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-	<div id = "Ep209" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 209</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-	<div id = "Ep210" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 210</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-	<div id = "Ep211" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 211</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-	<div id = "Ep212" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 212</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-	<div id = "Ep213" class="episode"> 
-	<span class="thumbnail"><a href="#XXXXXXXX"><img src="https://img.youtube.com/vi/XXXXXXXX/0.jpg"></a></span>		
-	<div class="ep_num">Episode 20X</div>
-	<div class="ep_title">XXXXXXXX</div>
-	<p>XXXXXXXX</p>
-	<p>XXXXXXXX</p>
-	<p class = "ep_date">Original air date:  XXXXXXXX</p>
-	</div>
-
-</div>
-
-<div class = "season" id= "season3">
-
-
+	Dr. Katz, Professional Therapist
+	<select name ="season" id = "season_select" onchange="onSeasonChange()">
+	<option value = "1">Season 1</option>
+	<option value = "2">Season 2</option>
+	<option value = "3">Season 3</option>
+	<option value = "4">Season 4</option>
+	<option value = "5">Season 5</option>
+	<option value = "6">Season 6</option>
+	</select>
 </div>
 
 
-<div class = "season" id= "season4">
+<div class = "season" id= "season1"><p>SEASON 1 !</p></div>
+<div class = "hidden_season" id= "season2"><p>SEASON 2 !</p></div>
+<div class = "season" id= "season3"><p>SEASON 3</p></div>
+<div class = "season" id= "season4"><p>SEASON 4</p></div>
+<div class = "season" id= "season5"><p>SEASON 5</p></div>
+<div class = "season" id= "season6"><p>SEASON 6</p></div>
+
 
 
 </div>
--->
+<script>
 
-</div>
+function onSeasonChange() {
+
+	const selector = 'select[name="season"]';
+  	const season = document.querySelector(selector).value;
+  	const seasonCount = 6;
+
+  	for (var i = 1; i <= seasonCount; i++) {
+  		if (season != i) {	
+//  			d3.select("#season"+season).classed('hideSeason', true);
+  			d3.select("#season"+i).style("display", "none")
+  			d3.select("#season"+i).transition().ease(d3.easeLinear).duration(500).style("opacity", 0)
+
+		//	alert ("hide #season"+i)
+			} 
+			else {
+  			d3.select("#season"+i).style("display", "block");
+			d3.select("#season"+i).transition().ease(d3.easeLinear).duration(1500).style("opacity", 1)
+
+		//	alert ("show #season"+i)
+
+			} 
+   	 }	
+
+
+}
+
+
+
+window.addEventListener('load', function () {
+
+	d3.csv("data/episodes.csv", function(d) {
+	  return {
+	};
+	}, function(episode, row) {
+  
+  	console.log(row,episode.ep_title);
+	
+	//creates episode div with the proper id:
+
+	d3.selectAll("#season"+episode.ep_season).insert("div").attr("id","Ep"+episode.ep_prod_code);
+
+	var ep_Content = 
+	"<span class='thumbnail'>" +
+		"<a href='#"+episode.ep_ytid+"'>" + 
+		"<img src='https://img.youtube.com/vi/"+episode.ep_ytid+"/0.jpg'></a>" + 
+	"</span>" + 
+
+	"<div class='ep_num'>Episode " + 
+		episode.ep_prod_code + 
+	"</div>" +
+	
+	"<div class='ep_title'>" +  
+		"\""+episode.ep_title+"\"" + 
+	"</div>" +
+
+	"<p>" + episode.ep_desc + "</p>" +
+
+	"<p class='ep_guests'>With " + episode.ep_guest + "</p>" +
+
+	"<p class = 'ep_date'>Original air date:" +  episode.ep_air_date + "</p>";
+
+	d3.selectAll("#Ep"+episode.ep_prod_code).html(ep_Content);
+	
+	//add the thumnbnail to the div
+//	d3.selectAll("#Ep"+episode.ep_prod_code).html("<span class='thumbnail'>+<a href='#"+episode.ep_ytid+"'><img src='https://img.youtube.com/vi/"+episode.ep_ytid+"/0.jpg'></span>");
+	//add the title to the div
+//	d3.selectAll("#Ep"+episode.ep_prod_code).html("<div class='ep_title'>"+episode.ep_title+"</div>");
+
+
+
+
+//	d3.select("div").attr("id","Ep"+episode.ep_prod_code);
+	
+	console.log("wtf?");
+
+	if (d3.select('#season1').size() == 0) {
+		  console.log("no DOM element selected.");
+		} else {
+		  console.log("yes DOM element(s) selected.");
+		}
+
+
+	d3.select("#Ep"+episode.ep_prod_code).attr("class","episode");
+	
+	//<span class="thumbnail"><a href="#xjHHiAitf_Q"><img src="https://img.youtube.com/vi/xjHHiAitf_Q/0.jpg"></a></span>
+	//<div class="ep_num">Episode 101</div>
+	//<div class="ep_title">"Pot-Bellied Pigs"</div>
+	//<p>In the first episode, Ben attempts a pot-belly pig breeding scheme and Dr. Katz receives financial advice from Stanley.</p>
+	//<p>Dr. Katz sees Bill Braudis and Dom Irrera.</p>
+	//<p class = "ep_date">Original air date: May 28, 1995 | Posted by Cartoon Digest</p>
+
+
+	//d3.select("#Ep"+episode.ep_prod_code).html("<div class='ep_title'>\""+episode.ep_title+"\"</div>");
+//	d3.select("#Ep"+episode.ep_prod_code).insert("<span class='thumbnail'> <img src='https://img.youtube.com/vi/"+episode.ep_ytid+".jpg;> </span>");
+
+  //  d3.select("div").html("<span>"+episode.ep_desc+"</span>");
+
+});
+
+})
+
+	
+//	d3.select("div").append(episode.ep_title);
+  
+  //body.getElementById
+//document.getElementById('output1').innerHTML = episode.ep_title; //. createTextNode() 
+
+  //for (var i = 0; i < episode.length; i++) {
+   	//   console.log(ep_title);
+   	 //}
+
+</script>	
+<!-- script>
+
+	d3.csv("data/episodes.csv", function(data) {;
+ 	   console.log("d3 land");		
+ 	   console.log(data.length);
+ 	   for (var i = 0; i < data.length; i++) {
+ 		console.log("in the loop"); 	   	
+ 	   	console.log(data.length);
+	    console.log("ep_prod_code");		
+        console.log(data[i].ep_prod_code);
+       	console.log("ep_name");		
+        console.log(data[i].ep_name);
+    }
+});
+
+
+</script-->
 
 <div id = "player">
 	FOO
