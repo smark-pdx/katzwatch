@@ -3,12 +3,14 @@ body {
 	font-family: pangolin;
 	padding: 0;
 	background-color: #ffce00;
-	margin: 0;
-	}
+	margin: 0 auto;
+  }	
 
-div {
+.row {
+  padding: 0px;
+  width: 100%;
+  }
 
-	}	
 
 div.season {
 	opacity: 1;
@@ -68,7 +70,6 @@ div.season span a img  {
 
 div#season_title {
 	font-size: 1.5em;
-	padding: 30px;
 	width: 100%;
 }
 
@@ -155,22 +156,49 @@ p.ep_date {
 	border: 3px solid #000;
 }
 
+
 #player {
-	height: 100%;
-	width: 100%;
+    display: inline-block;
+    margin: auto;
 	background-color: #000;
-	z-index: 999;
-	position: absolute;
-	top: 0px;
+	color:  #fff;
 	display: none;
+	text-align: center;
+	float: none;
+	padding: 0px;
+  	width: 100%;
 }
 
-	/* Large devices (laptops/desktops, 992px and up) */
-	@media only screen and (min-width: 992px) 
+#knobs {
+
+	background-color: #ccc;
+	float: left;
+}
+
+#yt_iframe {
+
+	text-align: center;
+	float: none;
+}
+
+	/* Large devices (laptops/desktops, 1024px and up) */
+
+	@media only screen and (min-width: 1032px) 
 	{
+	#yt_iframe {
+		width:  1024px;
+		height: 768px;
+	}
+	}
 
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media only screen and (min-width: 992px) and (max-width:1031px) 
+	{
+	#yt_iframe {
 
-
+		width:  800px;
+		height: 600px;
+	}
 	}
 
 
@@ -178,14 +206,24 @@ p.ep_date {
 	@media only screen and (min-width: 768px) and (max-width: 991px) 
 	{
 
+	#yt_iframe {
 
-
+		width:  640px;
+		height: 480px;
+	}
 	}
 
 
 	/* Small devices (mobile tablets, 767px and less) */
 	@media only screen and (max-width: 767px) 
 	{
+
+
+	#yt_iframe {
+
+		width:  320px;
+		height: 240px;
+	}
 
 
 	}

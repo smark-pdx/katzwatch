@@ -4,7 +4,6 @@
 <head>
 	<title>Our Menu</title>
     <script src="js/d3.min.js" charset="utf-8"></script>
-
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<meta charset="utf-8">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,27 +13,30 @@
 
 
 
-
 <body>
+	<div class="row">
+		<div id = "player" class="row">
+			<iframe id="yt_iframe" src="" ></iframe>
+			<br/>
+		</div>
+	</div>
+	<div id ="knobs"></div>
 
-<div id = "top_banner"></div>
-<div id = "second_banner"></div>
-
-<div id = "season_title">
-	Dr. Katz, Professional Therapist
-	<select name ="season" id = "season_select" onchange="onSeasonChange()">
-	<option value = "1">Season 1</option>
-	<option value = "2">Season 2</option>
-	<option value = "3">Season 3</option>
-	<option value = "4">Season 4</option>
-	<option value = "5">Season 5</option>
-	<option value = "6">Season 6</option>
-	</select>
-</div>
+	<div id = "season_title">
+		Dr. Katz, Professional Therapist
+			<select name ="season" id = "season_select" onchange="onSeasonChange()">
+			<option value = "1">Season 1</option>
+			<option value = "2">Season 2</option>
+			<option value = "3">Season 3</option>
+			<option value = "4">Season 4</option>
+			<option value = "5">Season 5</option>
+			<option value = "6">Season 6</option>
+		</select>
+	</div>
 
 
 <div class = "season" id= "season1"><p>SEASON 1 !</p></div>
-<div class = "hidden_season" id= "season2"><p>SEASON 2 !</p></div>
+<div class = "season" id= "season2"><p>SEASON 2 !</p></div>
 <div class = "season" id= "season3"><p>SEASON 3</p></div>
 <div class = "season" id= "season4"><p>SEASON 4</p></div>
 <div class = "season" id= "season5"><p>SEASON 5</p></div>
@@ -44,6 +46,16 @@
 
 </div>
 <script>
+
+//document.addEventListener('touchstart', "mousewheel", {passive: true});
+
+function onEpisodeClick(ytid) {
+
+	alert (ytid);
+	d3.select("#yt_iframe").attr("src", "https://www.youtube.com/embed/"+ytid) ;
+	d3.select("#player").style("display", "block");
+
+}
 
 function onSeasonChange() {
 
@@ -75,22 +87,38 @@ function onSeasonChange() {
 
 window.addEventListener('load', function () {
 
+
 	d3.csv("data/episodes.csv", function(d) {
 	  return {
 	};
 	}, function(episode, row) {
   
-  	console.log(row,episode.ep_title);
+  //	console.log(row,episode.ep_title);
 	
 	//creates episode div with the proper id:
 
 	d3.selectAll("#season"+episode.ep_season).insert("div").attr("id","Ep"+episode.ep_prod_code);
 
+
+	// d3.select("Ep"+episode.ep_prod_code).on("click", function mouseClick(episode.ep_ytid););
+		d3.select("Ep"+episode.ep_prod_code).on("click", function() {
+          console.log('foo');
+         // 	<iframe id="yt_iframe" width="100%" height="100%" src="https://www.youtube.com/embed/kBqPz2zjtec" 
+
+		}
+		);
+
+	// mouseClick(episode.ep_ytid));
+
+//	d3.select("div").append(episode.ep_title);
+
 	var ep_Content = 
 	"<span class='thumbnail'>" +
-		"<a href='#"+episode.ep_ytid+"'>" + 
+		"<a href='#"+episode.ep_ytid+"' title='"+episode.ep_ytid+"'' onclick='onEpisodeClick(\""+episode.ep_ytid+"\")';'>" +
 		"<img src='https://img.youtube.com/vi/"+episode.ep_ytid+"/0.jpg'></a>" + 
 	"</span>" + 
+
+
 
 	"<div class='ep_num'>Episode " + 
 		episode.ep_prod_code + 
@@ -107,6 +135,7 @@ window.addEventListener('load', function () {
 	"<p class = 'ep_date'>Original air date:" +  episode.ep_air_date + "</p>";
 
 	d3.selectAll("#Ep"+episode.ep_prod_code).html(ep_Content);
+
 	
 	//add the thumnbnail to the div
 //	d3.selectAll("#Ep"+episode.ep_prod_code).html("<span class='thumbnail'>+<a href='#"+episode.ep_ytid+"'><img src='https://img.youtube.com/vi/"+episode.ep_ytid+"/0.jpg'></span>");
@@ -118,12 +147,12 @@ window.addEventListener('load', function () {
 
 //	d3.select("div").attr("id","Ep"+episode.ep_prod_code);
 	
-	console.log("wtf?");
+//	console.log("wtf?");
 
 	if (d3.select('#season1').size() == 0) {
-		  console.log("no DOM element selected.");
+//		  console.log("no DOM element selected.");
 		} else {
-		  console.log("yes DOM element(s) selected.");
+//		  console.log("yes DOM element(s) selected.");
 		}
 
 
@@ -144,17 +173,18 @@ window.addEventListener('load', function () {
 
 });
 
+
+
+
+//function mouseClick(d) {
+    
+  //  console.log(d);
+	
+//	}
+
+
 })
 
-	
-//	d3.select("div").append(episode.ep_title);
-  
-  //body.getElementById
-//document.getElementById('output1').innerHTML = episode.ep_title; //. createTextNode() 
-
-  //for (var i = 0; i < episode.length; i++) {
-   	//   console.log(ep_title);
-   	 //}
 
 </script>	
 <!-- script>
@@ -175,9 +205,7 @@ window.addEventListener('load', function () {
 
 </script-->
 
-<div id = "player">
-	FOO
-</div>
+
 </body>
 
 </html>
